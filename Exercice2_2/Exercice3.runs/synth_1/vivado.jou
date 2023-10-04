@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct  4 13:59:05 2023
+# Process ID: 18012
+# Current directory: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice3/Exercice3.runs/synth_1
+# Command line: vivado.exe -log source.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source source.tcl
+# Log file: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice3/Exercice3.runs/synth_1/source.vds
+# Journal file: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice3/Exercice3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source source.tcl -notrace

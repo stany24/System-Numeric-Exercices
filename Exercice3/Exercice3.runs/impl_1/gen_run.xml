@@ -1,83 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1696419377">
-  <File Type="BITSTR-BMM" Name="source_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="source_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="source_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="source_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="source.tcl"/>
-  <File Type="OPT-TIMING" Name="source_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="source_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="source_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="source_reports.tcl"/>
-  <File Type="OPT-DRC" Name="source_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="source.hwdef"/>
-  <File Type="PWROPT-DCP" Name="source_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="source_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="source_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="source_placed.dcp"/>
-  <File Type="PLACE-IO" Name="source_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="source_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="source_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="source_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="source_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="source_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="source_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="source_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="source_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="source.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="source_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="source_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="source_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="source.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="source_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="source_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="source_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="source_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="source_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="source_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="source_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="source.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="source_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="source_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="source_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="source_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="source_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="source_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="source_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="source_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="source_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="source_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="source_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="source_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="source_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="source_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="source_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="source_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="source_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="source_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="source_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="source_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="source_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="source.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="source_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="source.rbt"/>
-  <File Type="BITSTR-NKY" Name="source.nky"/>
-  <File Type="PDI-FILE" Name="source.pdi"/>
-  <File Type="RCFI_FILE" Name="source.rcfi"/>
-  <File Type="CFI_FILE" Name="source.cfi"/>
-  <File Type="RNPI_FILE" Name="source.rnpi"/>
-  <File Type="NPI_FILE" Name="source.npi"/>
-  <File Type="RBD_FILE" Name="source.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1696424601">
+  <File Type="BITSTR-BMM" Name="Exercice3_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Exercice3_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Exercice3_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Exercice3_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Exercice3.tcl"/>
+  <File Type="OPT-TIMING" Name="Exercice3_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Exercice3_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Exercice3_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Exercice3_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Exercice3_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Exercice3.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Exercice3_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Exercice3_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Exercice3_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Exercice3_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Exercice3_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Exercice3_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Exercice3_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Exercice3_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Exercice3_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Exercice3_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Exercice3_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Exercice3_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Exercice3_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Exercice3.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Exercice3_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Exercice3_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Exercice3_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Exercice3.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Exercice3_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Exercice3_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Exercice3_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Exercice3_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Exercice3_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Exercice3_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Exercice3_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Exercice3.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Exercice3_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Exercice3_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Exercice3_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Exercice3_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Exercice3_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Exercice3_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Exercice3_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Exercice3_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Exercice3_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Exercice3_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Exercice3_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Exercice3_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Exercice3_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Exercice3_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Exercice3_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Exercice3_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Exercice3_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Exercice3_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Exercice3_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Exercice3_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Exercice3_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Exercice3.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Exercice3_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Exercice3.rbt"/>
+  <File Type="BITSTR-NKY" Name="Exercice3.nky"/>
+  <File Type="PDI-FILE" Name="Exercice3.pdi"/>
+  <File Type="RCFI_FILE" Name="Exercice3.rcfi"/>
+  <File Type="CFI_FILE" Name="Exercice3.cfi"/>
+  <File Type="RNPI_FILE" Name="Exercice3.rnpi"/>
+  <File Type="NPI_FILE" Name="Exercice3.npi"/>
+  <File Type="RBD_FILE" Name="Exercice3.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="source.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="source.sysdef"/>
-  <File Type="BG-BGN" Name="source.bgn"/>
-  <File Type="BG-DRC" Name="source.drc"/>
-  <File Type="RDI-RDI" Name="source.vdi"/>
+  <File Type="BITSTR-LTX" Name="Exercice3.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Exercice3.sysdef"/>
+  <File Type="BG-BGN" Name="Exercice3.bgn"/>
+  <File Type="BG-DRC" Name="Exercice3.drc"/>
+  <File Type="RDI-RDI" Name="Exercice3.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/source.vhd">
+    <File Path="$PSRCDIR/sources_1/new/bcd7seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Exercice3.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -85,13 +91,13 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="source"/>
+      <Option Name="TopModule" Val="Exercice3"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Constraints.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

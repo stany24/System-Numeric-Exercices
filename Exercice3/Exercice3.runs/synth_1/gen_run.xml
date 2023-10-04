@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1696419377">
-  <File Type="PA-TCL" Name="source.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="source_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="source_reports.tcl"/>
-  <File Type="RDS-RDS" Name="source.vds"/>
-  <File Type="RDS-UTIL" Name="source_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="source_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="source.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="source_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="source_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1696424601">
+  <File Type="PA-TCL" Name="Exercice3.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Exercice3_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Exercice3_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Exercice3.vds"/>
+  <File Type="RDS-UTIL" Name="Exercice3_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Exercice3_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Exercice3.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Exercice3_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Exercice3_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/source.vhd">
+    <File Path="$PSRCDIR/sources_1/new/bcd7seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Exercice3.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -19,13 +25,13 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="source"/>
+      <Option Name="TopModule" Val="Exercice3"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Constraints.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
