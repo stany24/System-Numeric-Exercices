@@ -1,0 +1,76 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Oct 18 15:26:09 2023
+| Host         : DESKTOP-GGBBNKF running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Exercice3_methodology_drc_routed.rpt -pb Exercice3_methodology_drc_routed.pb -rpx Exercice3_methodology_drc_routed.rpx
+| Design       : Exercice3
+| Device       : xc7a35tfgg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 8
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 2          |
+| TIMING-20 | Warning  | Non-clocked latch            | 6          |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell Aff_reg[5]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) Aff_reg[0]/PRE, Aff_reg[3]/PRE, Aff_reg[4]/PRE, Aff_reg[5]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell Aff_reg[6]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) Aff_reg[1]/PRE, Aff_reg[6]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Aff_reg[0] cannot be properly analyzed as its control pin Aff_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Aff_reg[1] cannot be properly analyzed as its control pin Aff_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Aff_reg[3] cannot be properly analyzed as its control pin Aff_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Aff_reg[4] cannot be properly analyzed as its control pin Aff_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch Aff_reg[5] cannot be properly analyzed as its control pin Aff_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch Aff_reg[6] cannot be properly analyzed as its control pin Aff_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+
