@@ -15,7 +15,7 @@ SIGNAL temp_q : std_logic;
 begin
     q <= temp_q;
     p1:PROCESS (clk, reset_n) BEGIN
-        IF reset_n = '0' THEN q <= '0';
+        IF reset_n = '0' THEN temp_q <= '0';
         ELSIF rising_edge(clk) THEN 
             IF enable = '1' THEN temp_q <= not(temp_q);
             END IF;

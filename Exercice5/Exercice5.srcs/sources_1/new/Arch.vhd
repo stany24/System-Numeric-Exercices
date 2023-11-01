@@ -17,7 +17,8 @@ begin
         mux <= ina when "00",
                inb when "01",
                inc when "10",
-               ind when "11";
+               ind when "11",
+               "0000" when OTHERS;
 
 
 end Behavioral;

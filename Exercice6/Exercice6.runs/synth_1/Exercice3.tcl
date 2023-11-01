@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tfgg484-1
 
@@ -88,7 +86,7 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
   C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice6/Exercice6.srcs/sources_1/imports/new/bcd7seg.vhd
-  C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice6/Exercice6.srcs/sources_1/imports/new/Exercice3.vhd
+  C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice6/Exercice6.srcs/sources_1/imports/new/Exercice7.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
