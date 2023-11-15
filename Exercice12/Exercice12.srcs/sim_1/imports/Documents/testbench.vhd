@@ -70,9 +70,9 @@ run: PROCESS
   --fixer toutes les entrees du module à tester (DUT) sauf clk
   PROCEDURE init IS
   BEGIN
-    reset_n <= '1';
-    enable <= '0';
-    d <= '0';
+    reset_n <= '0';
+    enable <= '1';
+    d <= '1';
   				
   END init;
 
@@ -92,23 +92,17 @@ BEGIN --debut de la simulation temps t=0ns
 	ASSERT FALSE REPORT "la simulation est en cours" SEVERITY NOTE;
 	--debut des tests
     sim_cycle(2);
-    test_signal(q,'U',1);
+    test_signal(q,'0',1);
     sim_cycle(1);
     
-    enable <= '1';
-    q <= '1';
+    reset_n <= '1';
     sim_cycle(1);
     test_signal(q,'1',2);
     sim_cycle(1);
-    
-    enable<= '0';
-    test_signal(q,'0',3);
+    test_signal(q,'0',2);
+    enable <= '0';
     sim_cycle(1);
-    
-    reset_n <= '0';
-    sim_cycle(1);
-    test_signal(q,'0',4);
-    
+    test_signal(q,'0',2);
 	sim_end <= TRUE;
 	wait;
 
