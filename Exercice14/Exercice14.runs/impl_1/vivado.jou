@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov 15 14:35:45 2023
+# Process ID: 8156
+# Current directory: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice14/Exercice14.runs/impl_1
+# Command line: vivado.exe -log Arch.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Arch.tcl -notrace
+# Log file: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice14/Exercice14.runs/impl_1/Arch.vdi
+# Journal file: C:/Users/Stan/Documents/Git/System-Numeric-Exercices/Exercice14/Exercice14.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Arch.tcl -notrace
